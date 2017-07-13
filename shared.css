@@ -1,0 +1,85 @@
+/* Shared */
+
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: Sans-Serif;
+	background-color: lightgray;
+}
+
+img.appIcon {
+	border-radius: 10%;
+}
+
+section {
+	padding: 44px 20%;
+}
+
+/* navbar */
+
+#navbar {
+	background-color: teal;
+	padding: 0;
+}
+
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 20px;
+}
+
+#navbar span {
+	color: white;
+	font-weight: lighter;
+	display: inline-block;
+	padding: 20px 0;
+	letter-spacing: 0.5px;
+}
+
+#navbar a {
+	text-decoration: none;
+}
+
+#navbar img {
+	height: 44px;
+	padding-top: 4px;
+}
+
+/* section */
+
+#sluglineSection {
+	background-color: white;
+}
+
+#sluglineSection h1 {
+	font-size: xx-large;
+	font-weight: lighter;
+	letter-spacing: 1.2px;
+}
+
+#sluglineSection p {
+	letter-spacing: 0.5px;
+	line-height: 150%;
+}
+
+#sluglineSection a {
+	
+}
+
+/* siteFooter */
+
+#siteFooter p {
+	display: inline-block;
+	margin: 20px;
+}
+
+#siteFooter a {
+	color: black;
+}
