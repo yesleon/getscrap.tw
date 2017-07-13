@@ -66,11 +66,50 @@ section {
 
 #sluglineSection p {
 	letter-spacing: 0.5px;
+	font-weight: lighter;
 	line-height: 150%;
 }
 
-#sluglineSection a {
-	
+#sluglineSection nav a {
+	color: teal;
+	font-size: large;
+	text-decoration: none;
+}
+
+#blogPosts {
+	background-color: white;
+}
+
+/* article */
+
+.blogPost {
+	text-align: left;
+	margin-bottom: 60px;
+}
+
+.blogPost h1 {
+	font-size: x-large;
+	font-weight: lighter;
+	color: black;
+	margin-bottom: 4px;
+	letter-spacing: 0.5px;
+}
+
+.blogPost header {
+	font-weight: lighter;
+	font-size: small;
+	color: gray;
+	letter-spacing: 0.2px;
+}
+
+.blogPost p {
+	font-weight: lighter;
+	line-height: 150%;
+	letter-spacing: 0.5px;
+}
+
+.blogPost a {
+	color: black;
 }
 
 /* siteFooter */
