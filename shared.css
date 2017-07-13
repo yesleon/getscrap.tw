@@ -13,7 +13,7 @@ img.appIcon {
 }
 
 section {
-	padding: 44px 20%;
+	padding: 44px 10%;
 }
 
 /* navbar */
@@ -43,6 +43,10 @@ section {
 	letter-spacing: 0.5px;
 }
 
+#navbar span#currentPage {
+	color: orange;
+}
+
 #navbar a {
 	text-decoration: none;
 }
@@ -68,6 +72,10 @@ section {
 	letter-spacing: 0.5px;
 	font-weight: lighter;
 	line-height: 150%;
+}
+
+#sluglineSection nav {
+	padding: 30px;
 }
 
 #sluglineSection nav a {
@@ -109,7 +117,7 @@ section {
 }
 
 .blogPost a {
-	color: black;
+	color: teal;
 }
 
 /* siteFooter */
@@ -117,6 +125,7 @@ section {
 #siteFooter p {
 	display: inline-block;
 	margin: 20px;
+	font-size: small;
 }
 
 #siteFooter a {
