@@ -92,9 +92,8 @@ section {
 
 .blogPost {
 	text-align: left;
-	margin: 0 0 60px;
-	padding: 0;
 	max-width: 800px;
+	margin: 0 auto;
 }
 
 .blogPost h1 {
