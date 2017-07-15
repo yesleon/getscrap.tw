@@ -5,6 +5,7 @@
 		Scrap
 	</title>
 	<link rel="stylesheet" type="text/css" href="shared.css">
+	<script src="shared.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="apple-touch-icon" href="assets/favicon/apple-icon.png">
 	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
@@ -33,11 +34,24 @@
 				<a href="./"><img src="assets/scrapLogoThumbnail.png"></a>
 			</li>
 			<li>
-				<a href="./blog"><span>Blog</span></a>
+				<a href="./blog">
+					<span class="localizedString" lang="en-us">Blog</span>
+					<span class="localizedString" style="display: none;" lang="zh-hant">部落格</span>
+				</a>
 			</li>
 			
 			<li>
-				<a href="./support"><span>Support</span></a>
+				<a href="./support">
+					<span class="localizedString" lang="en-us">Support</span>
+					<span class="localizedString" style="display: none;" lang="zh-hant">支援</span>
+				</a>
+			</li>
+			
+			<li>
+				<select onchange="select_language(this.options[this.selectedIndex].value)">
+				  <option value="en-us" selected>English</option>
+				  <option value="zh-hant">繁體中文</option>
+				</select>
 			</li>
 		</ul>
 	</nav>
@@ -45,8 +59,14 @@
 	<section id="sluglineSection">
 		<article>
 			<img src="assets/screenshot1.png">
-			<h1>Intuitive Storyboarding</h1>
-			<p>Scrap helps you make graphical stories. Capture shots and then assemble, arrange and share your storyboards.</p>
+			<h1>
+				<span class="localizedString" lang="en-us">Intuitive Storyboarding</span>
+				<span class="localizedString" style="display: none;" lang="zh-hant">故事板，無比直覺</span>
+			</h1>
+			<p>
+				<span class="localizedString" lang="en-us">Scrap helps you make graphical stories. Create and arrange scraps into a storyboard, and then share it.</span>
+				<span class="localizedString" style="display: none;" lang="zh-hant">Scrap 幫你製作圖像化的故事。創造與排列紙片成一個故事板，然後分享它。</span>
+			</p>
 			<nav>
 				<a href="https://docs.google.com/forms/d/1bvMDHASLOryYdf8GCQ-ggwfrN52cDJSDkalDEkBHmjc"><span>Enroll in Beta</span></a>
 			</nav>
