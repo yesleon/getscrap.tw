@@ -74,6 +74,10 @@ section {
 	line-height: 150%;
 }
 
+#sluglineSection a {
+	color: teal;
+}
+
 #sluglineSection nav {
 	padding: 30px;
 }
@@ -93,7 +97,7 @@ section {
 }
 
 #blogPosts {
-	background-color: white;
+	background-color: snow;
 }
 
 /* article */
