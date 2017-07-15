@@ -2,9 +2,11 @@
 <html>
 <head>
 	<title>
-		Scrap Blog
+		Scrap
 	</title>
 	<link rel="stylesheet" type="text/css" href="../shared.css">
+	<script src="../preload.js"></script>
+	<script src="../defer.js" defer></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -15,11 +17,32 @@
 				<a href="../"><img src="../assets/scrapLogoThumbnail.png"></a>
 			</li>
 			<li>
-				<a href="../blog"><span id="currentPage">Blog</span></a>
+				<a href="../blog">
+					<span class="localizedString currentPage" lang="en-us">
+						Blog
+					</span>
+					<span class="localizedString currentPage" lang="zh-hant">
+						部落格
+					</span>
+				</a>
 			</li>
 			
 			<li>
-				<a href="../support"><span>Support</span></a>
+				<a href="../support">
+					<span class="localizedString" lang="en-us">
+						Support
+					</span>
+					<span class="localizedString" lang="zh-hant">
+						支援
+					</span>
+				</a>
+			</li>
+			
+			<li>
+				<select id="languageList" onchange="select_language(this.options[this.selectedIndex].value)">
+					<option value="en-us">English</option>
+					<option value="zh-hant">繁體中文</option>
+				</select>
 			</li>
 		</ul>
 	</nav>

@@ -16,6 +16,12 @@ section {
 	padding: 44px;
 }
 
+/* localization */
+
+.localizedString {
+	display: none;
+}
+
 /* navbar */
 
 #navbar {
@@ -40,12 +46,11 @@ section {
 #navbar span {
 	color: white;
 	font-weight: lighter;
-	display: inline-block;
 	padding: 20px 0;
 	letter-spacing: 0.5px;
 }
 
-#navbar span#currentPage {
+#navbar span.currentPage {
 	color: orange;
 }
 

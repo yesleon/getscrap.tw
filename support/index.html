@@ -2,9 +2,12 @@
 <html>
 <head>
 	<title>
-		Scrap Support
+		Scrap
 	</title>
 	<link rel="stylesheet" type="text/css" href="../shared.css">
+	<script src="../preload.js"></script>
+	<script src="../defer.js" defer></script>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -15,19 +18,56 @@
 				<a href="../"><img src="../assets/scrapLogoThumbnail.png"></a>
 			</li>
 			<li>
-				<a href="../blog"><span>Blog</span></a>
+				<a href="../blog">
+					<span class="localizedString" lang="en-us">
+						Blog
+					</span>
+					<span class="localizedString" lang="zh-hant">
+						部落格
+					</span>
+				</a>
 			</li>
 			
 			<li>
-				<a href="../support"><span id="currentPage">Support</span></a>
+				<a href="../support">
+					<span class="localizedString currentPage" lang="en-us">
+						Support
+					</span>
+					<span class="localizedString currentPage" lang="zh-hant">
+						支援
+					</span>
+				</a>
+			</li>
+			
+			<li>
+				<select id="languageList" onchange="select_language(this.options[this.selectedIndex].value)">
+					<option value="en-us">English</option>
+					<option value="zh-hant">繁體中文</option>
+				</select>
 			</li>
 		</ul>
 	</nav>
 	
 	<section id="sluglineSection">
 		<article>
-			<h1>Tell us what you think.</h1>
-			<p>Problems, ideas, requests, use cases, or anything on your mind. We thirst for your input.</p>
+			<h1>
+				<span class="localizedString" lang="en-us">
+					Tell us what you think.
+				</span>
+				<span class="localizedString" lang="zh-hant">
+					告訴我們你的想法。
+				</span>
+			</h1>
+			<p>
+				<span class="localizedString" lang="en-us">
+					Problems, ideas, requests, use cases, or anything on your mind.
+					We thirst for your input.
+				</span>
+				<span class="localizedString" lang="zh-hant">
+					問題，點子，請求，使用案例，或者在你心上的任何事。
+					我們渴望你的意見。
+				</span>
+			</p>
 			<nav>
 				<a href="mailto:narrativesaw@icloud.com"><span>Contact Us</span></a>
 			</nav>

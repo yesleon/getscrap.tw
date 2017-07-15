@@ -1,9 +1,13 @@
+
+
+var language = getCookie('language') || 'en-us';
+console.log(document.cookie);
 function select_language(language) {
 
-	let localizedStrings = document.getElementsByClassName("localizedString");
+	var localizedStrings = document.getElementsByClassName("localizedString");
 
 	for (i = 0; i < localizedStrings.length; i++) {
-		let string = localizedStrings[i];
+		var string = localizedStrings[i];
 		if (string.lang == language)
 			string.style.display = 'inline-block';
 		else
@@ -14,7 +18,8 @@ function select_language(language) {
 	var expireTime = now.getTime() + 30 * 24 * 60 * 60 * 1000;
 	var expireDate = new Date(expireTime);
 	
-	document.cookie = 'language=' + language + '; expires=' + expireDate.toGMTString();
+	document.cookie = 'language=' + language + '; expires=' + expireDate.toGMTString() + '; path=/';
+	console.log(document.cookie);
 }
 
 function getCookie(cname) {
@@ -32,5 +37,3 @@ function getCookie(cname) {
 	}
 	return "";
 }
-
-var language = getCookie('language') || 'en-us';
