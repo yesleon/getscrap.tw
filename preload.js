@@ -1,5 +1,3 @@
-console.log(document.cookie);
-
 function select_language(language) {
 
 	let localizedStrings = document.getElementsByClassName("localizedString");
@@ -11,10 +9,12 @@ function select_language(language) {
 		else
 			string.style.display = 'none';
 	}
+
+	var now = new Date();
+	var expireTime = now.getTime() + 30 * 24 * 60 * 60 * 1000;
+	var expireDate = new Date(expireTime);
 	
-	
-	document.cookie = 'language=' + language;
-	console.log(document.cookie);
+	document.cookie = 'language=' + language + '; expires=' + expireDate.toGMTString();
 }
 
 function getCookie(cname) {
@@ -32,10 +32,5 @@ function getCookie(cname) {
 	}
 	return "";
 }
-
-var now = new Date();
-var expireTime = now.getTime() + 30 * 24 * 60 * 60 * 1000;
-var expireDate = new Date(expireTime);
-document.cookie = 'expires=' + expireDate.toGMTString();
 
 var language = getCookie('language') || 'en-us';
