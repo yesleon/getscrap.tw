@@ -21,6 +21,8 @@ section {
 #navbar {
 	background-color: teal;
 	padding: 0;
+	overflow-x: scroll;
+	white-space: nowrap;
 }
 
 #navbar ul {
