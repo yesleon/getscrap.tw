@@ -13,7 +13,7 @@ img.appIcon {
 }
 
 section {
-	padding: 44px 10%;
+	padding: 44px;
 }
 
 /* navbar */
@@ -62,6 +62,10 @@ section {
 	background-color: white;
 }
 
+#sluglineSection img {
+	width: 100%;
+}
+
 #sluglineSection h1 {
 	font-size: xx-large;
 	font-weight: lighter;
@@ -72,6 +76,10 @@ section {
 	letter-spacing: 0.5px;
 	font-weight: lighter;
 	line-height: 150%;
+}
+
+#sluglineSection a {
+	color: teal;
 }
 
 #sluglineSection nav {
@@ -93,20 +101,23 @@ section {
 }
 
 #blogPosts {
-	background-color: white;
+	background-color: snow;
 }
 
 /* article */
 
+article {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
 .blogPost {
 	text-align: left;
-	max-width: 800px;
-	margin: 0 auto;
 }
 
 .blogPost h1 {
 	font-size: x-large;
-	font-weight: lighter;
+	font-weight: normal;
 	color: black;
 	margin-bottom: 4px;
 	letter-spacing: 0.5px;
@@ -121,6 +132,7 @@ section {
 
 .blogPost p {
 	font-weight: lighter;
+	color: black;
 	line-height: 150%;
 	letter-spacing: 0.5px;
 }
