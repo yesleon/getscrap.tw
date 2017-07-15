@@ -62,6 +62,10 @@ section {
 	background-color: white;
 }
 
+#sluglineSection img {
+	width: 100%;
+}
+
 #sluglineSection h1 {
 	font-size: xx-large;
 	font-weight: lighter;
