@@ -31,10 +31,12 @@
 <body>
 	
 	<nav id="navbar">
-		<ul>
+		
+		<ul>	
 			<li>
 				<a href="./"><img src="assets/scrapLogoThumbnail.png"></a>
 			</li>
+			
 			<li>
 				<a href="./blog">
 					<span class="localizedString" lang="en-us">
@@ -56,14 +58,9 @@
 					</span>
 				</a>
 			</li>
-			
-			<li>
-				<select id="languageList" onchange="select_language(this.options[this.selectedIndex].value)">
-					<option value="en-us">English</option>
-					<option value="zh-hant">繁體中文</option>
-				</select>
-			</li>
+		
 		</ul>
+		
 	</nav>
 
 	<section id="sluglineSection">
@@ -104,6 +101,13 @@
 			<span class="localizedString" lang="zh-hant">
 				由<a href="mailto:yesleon@me.com">立衡</a>用<span style="color: red">&hearts;</span>製作
 			</span>
+		</p>
+			
+		<p>
+			<select id="languageList" onchange="select_language(this.options[this.selectedIndex].value)">
+				<option value="en-us">English</option>
+				<option value="zh-hant">繁體中文</option>
+			</select>
 		</p>
 	</footer>
 
