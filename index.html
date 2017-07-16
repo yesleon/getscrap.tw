@@ -1,67 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-		Scrap
-	</title>
-	<link rel="stylesheet" type="text/css" href="shared.css">
-	<script src="preload.js"></script>
-	<script src="defer.js" defer></script>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" href="assets/favicon/apple-icon.png">
-	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-	<link rel="manifest" href="assets/favicon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
+	<script src="/preload.js"></script>
+	<script src="/defer.js" defer></script>
 </head>
 <body>
 	
-	<nav id="navbar">
-		
-		<ul>	
-			<li>
-				<a href="./"><img src="assets/scrapLogoThumbnail.png"></a>
-			</li>
-			
-			<li>
-				<a href="./blog">
-					<span class="localizedString" lang="en-us">
-						Blog
-					</span>
-					<span class="localizedString" lang="zh-hant">
-						部落格
-					</span>
-				</a>
-			</li>
-			
-			<li>
-				<a href="./support">
-					<span class="localizedString" lang="en-us">
-						Support
-					</span>
-					<span class="localizedString" lang="zh-hant">
-						支援
-					</span>
-				</a>
-			</li>
-		
-		</ul>
-		
-	</nav>
+	<script>document.write(navbarHTML);</script>	
 
 	<section id="sluglineSection">
 		<article>
@@ -93,23 +38,7 @@
 		</article>
 	</section>
 		
-	<footer id="siteFooter">
-		<p>
-			<span class="localizedString" lang="en-us">
-				Made with <span style="color: red">&hearts;</span> by <a href="mailto:yesleon@me.com">Li-Heng</a>
-			</span>
-			<span class="localizedString" lang="zh-hant">
-				由<a href="mailto:yesleon@me.com">立衡</a>用<span style="color: red">&hearts;</span>製作
-			</span>
-		</p>
-			
-		<p>
-			<select id="languageList" onchange="select_language(this.options[this.selectedIndex].value)">
-				<option value="en-us">English</option>
-				<option value="zh-hant">繁體中文</option>
-			</select>
-		</p>
-	</footer>
+	<script>document.write(siteFooterHTML);</script>
 
 </body>
 </html>

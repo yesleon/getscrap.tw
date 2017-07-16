@@ -1,48 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-		Scrap
-	</title>
-	<link rel="stylesheet" type="text/css" href="/shared.css">
 	<script src="/preload.js"></script>
 	<script src="/defer.js" defer></script>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	
-	<nav id="navbar">
-		<ul>
-			<li>
-				<a href="/"><img src="/assets/scrapLogoThumbnail.png"></a>
-			</li>
-			<li>
-				<a href="/blog">
-					<span class="localizedString currentPage" lang="en-us">
-						Blog
-					</span>
-					<span class="localizedString currentPage" lang="zh-hant">
-						部落格
-					</span>
-				</a>
-			</li>
-			
-			<li>
-				<a href="/support">
-					<span class="localizedString" lang="en-us">
-						Support
-					</span>
-					<span class="localizedString" lang="zh-hant">
-						支援
-					</span>
-				</a>
-			</li>
-		</ul>
-	</nav>
-	
-	<script type="text/javascript" src="http://getscrap.tumblr.com/api/read/json" defer></script>
-	<script type="text/javascript" src="blog.js" defer></script>
+	<script>document.write(navbarHTML);</script>
 	
 	<section id="sluglineSection">
 		<article>
@@ -66,24 +30,10 @@
 	</section>
 
 	<section id="blogPosts"></section>
+	<script type="text/javascript" src="http://getscrap.tumblr.com/api/read/json" defer></script>
+	<script type="text/javascript" src="blog.js" defer></script>
 		
-	<footer id="siteFooter">
-		<p>
-			<span class="localizedString" lang="en-us">
-				Made with <span style="color: red">&hearts;</span> by <a href="mailto:yesleon@me.com">Li-Heng</a>
-			</span>
-			<span class="localizedString" lang="zh-hant">
-				由<a href="mailto:yesleon@me.com">立衡</a>用<span style="color: red">&hearts;</span>製作
-			</span>
-		</p>
-			
-		<p>
-			<select id="languageList" onchange="select_language(this.options[this.selectedIndex].value)">
-				<option value="en-us">English</option>
-				<option value="zh-hant">繁體中文</option>
-			</select>
-		</p>
-	</footer>
+	<script>document.write(siteFooterHTML);</script>
 
 </body>
 </html>
