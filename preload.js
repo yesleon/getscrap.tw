@@ -1,7 +1,17 @@
 
 
-var language = getCookie('language') || 'en-us';
-console.log(document.cookie);
+var language = getCookie('language');
+if (language == '') {
+	if (navigator.language == 'zh-TW')  {
+		language = 'zh-hant';
+	} else {
+		language = 'en-us';
+	}
+	
+}
+	
+
+
 function select_language(language) {
 
 	var localizedStrings = document.getElementsByClassName("localizedString");
