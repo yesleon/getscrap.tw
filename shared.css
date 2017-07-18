@@ -12,10 +12,6 @@ img.appIcon {
 	border-radius: 10%;
 }
 
-section {
-	padding: 44px;
-}
-
 /* localization */
 
 .localizedString {
@@ -65,24 +61,32 @@ section {
 
 /* section */
 
-#sluglineSection {
-	background-color: white;
-}
-
-#sluglineSection img {
-	width: 100%;
-}
-
-#sluglineSection h1 {
+section h1 {
 	font-size: xx-large;
 	font-weight: lighter;
 	letter-spacing: 1.2px;
 }
 
-#sluglineSection p {
+section p {
 	letter-spacing: 0.5px;
 	font-weight: lighter;
 	line-height: 150%;
+}
+
+section {
+	padding: 50px 50px 100px;
+}
+
+#sluglineSection {
+	background-color: white;
+}
+
+#aboutUsSection {
+	background-color: snow;
+}
+
+#sluglineSection img {
+	width: 100%;
 }
 
 #sluglineSection a {

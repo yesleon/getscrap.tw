@@ -53,7 +53,6 @@ var headHTML = `
 		Scrap
 	</title>
 	<link rel="stylesheet" type="text/css" href="/shared.css">
-	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="apple-touch-icon" href="/assets/favicon/apple-icon.png">
 	<link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
