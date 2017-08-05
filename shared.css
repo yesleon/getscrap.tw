@@ -41,7 +41,7 @@ img.appIcon {
 
 #navbar span {
 	color: white;
-	font-weight: lighter;
+	font-weight: normal;
 	padding: 20px 0;
 	letter-spacing: 0.5px;
 }
@@ -73,7 +73,7 @@ section p {
 	line-height: 150%;
 }
 
-section {
+#sluglineSection {
 	padding: 50px 50px 100px;
 }
 
@@ -112,19 +112,24 @@ section {
 }
 
 #blogPosts {
-	background-color: snow;
+	padding: 10px;
+	background-color: #eee;
 }
 
 /* article */
 
 article {
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 50px auto;
 }
 
 .blogPost {
 	text-align: left;
-	padding: 50px 0;
+	margin: 20px auto;
+	padding: 10px 30px 50px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0 0 7px #ccc;
 }
 
 .blogPost h1 {
