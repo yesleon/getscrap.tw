@@ -124,11 +124,20 @@ article {
 
 .blogPost {
 	text-align: left;
+	padding: 50px 0;
 }
 
 .blogPost h1 {
 	font-size: x-large;
 	font-weight: normal;
+	color: black;
+	margin-bottom: 4px;
+	letter-spacing: 0.5px;
+}
+
+.blogPost h2 {
+	font-size: large;
+	font-weight: bold;
 	color: black;
 	margin-bottom: 4px;
 	letter-spacing: 0.5px;
@@ -141,7 +150,7 @@ article {
 	letter-spacing: 0.2px;
 }
 
-.blogPost p {
+.blogPost p, .blogPost li {
 	font-weight: lighter;
 	color: black;
 	line-height: 150%;

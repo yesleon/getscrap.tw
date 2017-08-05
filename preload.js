@@ -75,7 +75,6 @@ var headHTML = `
 `
 document.write(headHTML);
 
-
 var navbarHTML = `
 <nav id="navbar">
 	<ul>	
@@ -85,10 +84,10 @@ var navbarHTML = `
 		
 		<li>
 			<a href="/blog">
-				<span class="localizedString" lang="en-us">
+				<span class="localizedString ${blog}" lang="en-us">
 					Blog
 				</span>
-				<span class="localizedString" lang="zh-hant">
+				<span class="localizedString ${blog}" lang="zh-hant">
 					部落格
 				</span>
 			</a>
@@ -96,10 +95,10 @@ var navbarHTML = `
 		
 		<li>
 			<a href="/support">
-				<span class="localizedString" lang="en-us">
+				<span class="localizedString ${support}" lang="en-us">
 					Support
 				</span>
-				<span class="localizedString" lang="zh-hant">
+				<span class="localizedString ${support}" lang="zh-hant">
 					支援
 				</span>
 			</a>

@@ -13,7 +13,7 @@ for (var index = 0; index < posts.length; index++) {
 	
 	let string = ''
 	+ '<article class="blogPost"><header><h1>' + title + '</h1>'
-	+ 'Li-Heng on ' + formattedDateString
+	+ formattedDateString
 	+ '</header>'
 	
 	+ body
