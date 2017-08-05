@@ -73,7 +73,7 @@ section p {
 	line-height: 150%;
 }
 
-#sluglineSection {
+#sluglineSection, #aboutUsSection {
 	padding: 50px 50px 100px;
 }
 
