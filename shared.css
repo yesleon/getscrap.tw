@@ -85,6 +85,11 @@ section p {
 	background-color: snow;
 }
 
+#sluglineSection article, #aboutUsSection article {
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
 #sluglineSection img {
 	width: 100%;
 }
