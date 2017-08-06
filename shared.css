@@ -86,8 +86,8 @@ section p {
 }
 
 #sluglineSection article, #aboutUsSection article {
-	padding-bottom: 100px;
-	padding-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 150px;
 }
 
 #sluglineSection img {
