@@ -74,7 +74,7 @@ section p {
 }
 
 #sluglineSection, #aboutUsSection {
-	padding: 50px 50px 100px;
+	padding: 10px 50px;
 }
 
 #sluglineSection {
@@ -86,8 +86,8 @@ section p {
 }
 
 #sluglineSection article, #aboutUsSection article {
-	padding-top: 50px;
-	padding-bottom: 150px;
+	padding-top: 0px;
+	padding-bottom: 200px;
 }
 
 #sluglineSection img {
